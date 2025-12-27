@@ -12,7 +12,6 @@ commonLabels:
 resources:
 - ./../../../base/apps/nginx/nginx-svc
 
-
 images:
 - name: nginx-svc
   newName: nginx
