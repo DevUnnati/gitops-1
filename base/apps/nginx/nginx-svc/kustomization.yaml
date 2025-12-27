@@ -9,4 +9,12 @@ resources:
   - deployment.yaml
   - service.yaml
 
+configMapGenerator:
+  - name: nginx-svc-conf
+    files:
+      - default.conf=./config/default.conf
+
+generatorOptions:
+  disableNameSuffixHash: true
+
   
