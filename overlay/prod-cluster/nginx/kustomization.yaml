@@ -14,5 +14,5 @@ resources:
 images:
 - name: nginx
   newName: nginx
-  newTag: 1.28.1
+  newTag: 1.29.1
 
